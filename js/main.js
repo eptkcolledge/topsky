@@ -288,7 +288,7 @@
      var siteCountDown = function() {
 
          if ($('#date-countdown').length > 0) {
-             $('#date-countdown').countdown('2022/06/01', function(event) {
+             $('#date-countdown').countdown('2022/07/01', function(event) {
                  var $this = $(this).html(event.strftime('' +
                      '<span class="countdown-block"><span class="label">%w</span> недель </span>' +
                      '<span class="countdown-block"><span class="label">%d</span> дней </span>' +
